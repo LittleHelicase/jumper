@@ -1,16 +1,13 @@
-# jumper
-
-A new Flutter project.
+# jumper App
+...
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Install flutter. Switch to dev channel `flutter channel dev` and enable web / desktop
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter config --enable-macos-desktop
+flutter config --enable-web
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Run it via flutter run.

@@ -21,8 +21,8 @@ class Sprite {
     final sets = configJson['sets'] ?? [];
     return Sprite(
         name: configJson['name'],
-        width: configJson['width'],
-        height: configJson['height'],
+        width: configJson['width'].toDouble(),
+        height: configJson['height'].toDouble(),
         animations: Map.fromEntries(await Future.wait(sets
             .map<Future<MapEntry<String, animation.Animation>>>(
                 (spriteSet) async {

@@ -1,0 +1,84 @@
+{
+    "name": "Owlet",
+    "width": 32,
+    "height": 32,
+    "sets": [
+        {
+            "name": "default",
+            "animated": false,
+            "file": "Owlet_Monster.png"
+        },
+        {
+            "name": "run",
+            "animated": true,
+            "frames": 6,
+            "file": "Owlet_Monster_Run_6.png"
+        },
+        {
+            "name": "jump",
+            "animated": true,
+            "frames": 8,
+            "file": "Owlet_Monster_Jump_8.png"
+        },
+        {
+            "name": "attack 1",
+            "animated": true,
+            "frames": 4,
+            "file": "Owlet_Monster_Attack1_4.png"
+        },
+        {
+            "name": "attack 2",
+            "animated": true,
+            "frames": 6,
+            "file": "Owlet_Monster_Attack2_6.png"
+        },
+        {
+            "name": "climb",
+            "animated": true,
+            "frames": 4,
+            "file": "Owlet_Monster_Climb_4.png"
+        },
+        {
+            "name": "death",
+            "animated": true,
+            "frames": 8,
+            "file": "Owlet_Monster_Death_8.png"
+        },
+        {
+            "name": "hurt",
+            "animated": true,
+            "frames": 4,
+            "file": "Owlet_Monster_Hurt_4.png"
+        },
+        {
+            "name": "idle",
+            "animated": true,
+            "frames": 4,
+            "file": "Owlet_Monster_Idle_4.png"
+        },
+        {
+            "name": "push",
+            "animated": true,
+            "frames": 6,
+            "file": "Owlet_Monster_Push_6.png"
+        },
+        {
+            "name": "Throw",
+            "animated": true,
+            "frames": 4,
+            "file": "Owlet_Monster_Throw_4.png"
+        },
+        {
+            "name": "walk",
+            "animated": true,
+            "frames": 6,
+            "file": "Owlet_Monster_Walk_6.png"
+        },
+        {
+            "name": "walk&attack",
+            "animated": true,
+            "frames": 6,
+            "file": "Owlet_Monster_Walk+Attack_6.png"
+        }
+    ]
+}

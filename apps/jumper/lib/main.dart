@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jumper/components/jumper_background.dart';
 
 import 'package:jumper/views/menu_view.dart';
 
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'jumper',
+      builder: (context, navigator) => JumperBackground(child: navigator),
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -30,7 +32,27 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const JumperScaffold(child: MenuView()),
+      home: Scaffold(
+        body: Center(
+            child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            const Text(
+              'Jumper',
+              style: TextStyle(
+                fontSize: 64,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ),
+            const MenuView(),
+            Padding(
+              padding: EdgeInsets.symmetric(vertical: 20),
+            ),
+          ],
+        )),
+        backgroundColor: Colors.transparent,
+      ),
     );
   }
 }

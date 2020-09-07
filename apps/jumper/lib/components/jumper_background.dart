@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 
-class JumperScaffold extends StatelessWidget {
-  const JumperScaffold({this.child});
+class JumperBackground extends StatelessWidget {
+  const JumperBackground({this.child});
 
   final Widget child;
 
   @override
-  Widget build(BuildContext context) => Scaffold(
-          body: Stack(children: [
+  Widget build(BuildContext context) => Stack(children: [
         Container(
             decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -19,6 +18,6 @@ class JumperScaffold extends StatelessWidget {
             ], // repeats the gradient over the canvas
           ),
         )),
-        Center(child: child),
-      ]));
+        child,
+      ]);
 }

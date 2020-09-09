@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   flame: ^0.26.0
+  uuid: ^2.2.2
 
 
   # The following adds the Cupertino Icons font to your application.

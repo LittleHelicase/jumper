@@ -3,11 +3,23 @@
 
 ## Getting Started
 
-Install flutter. Switch to dev channel `flutter channel dev` and enable web / desktop
+Install flutter and switch to dev channel:
 
-```
-flutter config --enable-macos-desktop
-flutter config --enable-web
+```console
+$ flutter channel dev
 ```
 
-Run it via flutter run.
+Enable desktop and web:
+
+```console
+$ flutter config --enable-macos-desktop
+$ flutter config --enable-web
+```
+
+Download external assets:
+
+```console
+$ sh apps/jumper/scripts/download-assets.sh
+```
+
+Run it via `flutter run`.

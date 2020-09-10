@@ -5,7 +5,7 @@ WORKING_DIR=$(pwd)
 SCRIPT_DIR=$(dirname "$0")
 
 cd "$SCRIPT_DIR"
-mkdir ../assets/images/sprites/pico8
-cd ../assets/images/sprites/pico8
+mkdir ../assets/images/sprites/external
+cd ../assets/images/sprites/external
 curl -LO https://github.com/hastebrot/sprites/raw/master/pico8/38190_sprites.png
 cd "$WORKING_DIR"
